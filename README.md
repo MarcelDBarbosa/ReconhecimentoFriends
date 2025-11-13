@@ -1,4 +1,5 @@
 <h1 align="center">Reconhecimento Friends</h1>
+
 ![Python Badge](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 Treinamento de uma rede YOLO v11 para reconhecimento dos personagens do seriado Friends.
@@ -14,5 +15,5 @@ O módulo ReconFriends.py é usado para treinar o modelo para reconhecer os 6 pe
   <img alt="resultado6" title="#resultado6" src="./images/Resultado6.jpg">
 </div>
 
-##Observação:
+## Observação:
 O treinamento foi realizado num MacBookAir com processador M2, 8 Gb de RAM, S.O. Sequoia 15.7.2 e demorou cerca de 12 minutos para executar as 100 épocas. Foi habilitado o uso de GPU, com a opção device='mps'. Para executar o modelo é necessário instalar a biblioteca ultralytics (pip install ultralytics)
